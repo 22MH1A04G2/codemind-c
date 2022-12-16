@@ -8,15 +8,9 @@ int main()
     {
         scanf("%d",&a[i]);
         //printf("%d ",a[i]);
-        //sum=sum+a[i];
-        //avg=sum/n;
-    }
-    for(i=0;i<n;i++)
-    {
         sum=sum+a[i];
-        
+        avg=sum/n;
     }
-    avg=sum/n;
     for(i=0;i<n;i++)
         {
         if(avg<=a[i])
